@@ -310,7 +310,7 @@
 				  			  
 				  });
 				});
-				
+
 				$.ajax({
 					url: 'http://localhost:9006/v1/getalldisasterinfo',
 					method: 'get',
@@ -319,7 +319,7 @@
 										var data = res;
 										//console.log(res);
 										console.log(data);
-										
+
 										for(var i = 0;i < data.length;i++){
 											var option = document.createElement("option");
 											option.setAttribute('value',data[i].id);
@@ -329,13 +329,13 @@
 											form.render('select');
 										}
 										//$('#earthquakeId').empty();
-											
+
 
 					                },
 					error:function(data){
 					layer.alert("服务器繁忙");
 					}
-							  
+
 				});
 		
 		        // //自定义验证规则

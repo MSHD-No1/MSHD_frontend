@@ -157,34 +157,16 @@
                                 })
                             });
                         } else if (obj.event === 'edit') {
-
                                 layer.open({
                                     resize: false,
-                                    title: '预览',
+                                    title: '受伤统计列表',
                                     shadeClose: true,
                                     area: ['1200px','600px'],
                                     type: 2,
-                                    content: './personStatisticsInfo-add.html',
-
+                                    content: './personStatisticsInfo-edit.html?id='+data.id,
                                 });
+                            tableRender();
 
-                            // ({
-                            //     url: URL + '/v1/injuredStatistics/' + data.id,
-                            //     method: 'put',
-                            //     data: data,
-                            //     dataType: 'JSON',
-                            //     success: function (res) {
-                            //         if (res.code === 0) {
-                            //             layer.alert("编辑成功");
-                            //             tableRender();
-                            //         } else
-                            //             alert(res.msg);
-                            //     },
-                            //     error: function (data) {
-                            //         layer.alert("请检查输入数据格式");
-                            //         tableRender();
-                            //     }
-                            // });
                         }
                     });
 
