@@ -125,6 +125,7 @@
 		  //监听工具条
 		  table.on('tool(deathStatisticsTb)', function(obj){
 		    var data = obj.data;
+		    var category="death";
 		    if(obj.event === 'detail'){
 				//将localStorage传递到哪个页面
 				// location.href = 'map.html';
@@ -164,7 +165,7 @@
 					shadeClose: true,
 					area: ['1200px','600px'],
 					type: 2,
-					content: './personStatisticsInfo-edit.html?id='+data.id,
+					content: './personStatisticsInfo-edit.html?id='+'&category='+category,
 				});
 				tableRender();
 		    }

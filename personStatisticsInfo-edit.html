@@ -137,6 +137,7 @@
 <script>layui.use(['form', 'layer', 'laydate', 'slider', 'upload'],
     function () {
         var Eid;
+        var Category;
         var $ = layui.jquery;
         var form = layui.form;
         var layer = layui.layer;
@@ -170,6 +171,7 @@
                 }
 
                 Eid = getQueryString("id")
+                Category = getQueryString("category")
 
 
 
@@ -403,6 +405,7 @@
                     //监听提交
                     form.on('submit(submit)',
                         function (data) {
+                            var SelectedUrl;
                             var location = $("#location").val();
                             var date = $("#date").val();
                             var number = $("#number").val();
@@ -415,9 +418,17 @@
                                 "earthquakeId": earthquakeId,
                                 "reportingUnit": reportingUnit
                             };
+                            if (Category==='injured'){
+                                SelectedUrl=StorgeURL + '/v1/injuredStatistics/'
+                                layer.alert("11111111");
+                            }else if (Category==='death'){
+                                SelectedUrl=StorgeURL + '/v1/deathStatistics/'
+                            } else {
+                                SelectedUrl=StorgeURL + '/v1/missingStatistics/'
+                            }
 
                             $.ajax({
-                                url: StorgeURL + '/v1/injuredStatistics/' + Eid,
+                                url: SelectedUrl + Eid,
                                 method: 'put',
                                 data: data,
                                 dataType: 'JSON',
