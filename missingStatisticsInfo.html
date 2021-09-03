@@ -36,7 +36,7 @@
 
 <script type="text/html" id="barDemo">
     <!-- <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a> -->
-    <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+    <a class="layui-btn layui-btn-xs" lay-event="edit">修改</a>
     <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
 </script>
 <script type="text/html" id="pictureTpl">
@@ -128,7 +128,7 @@
                     //监听工具条
                     table.on('tool(missingStatisticsTb)', function (obj) {
                         var data = obj.data;
-                        var category="missing";
+                        var category = "missing";
                         if (obj.event === 'detail') {
                             //将localStorage传递到哪个页面
                             // location.href = 'map.html';
@@ -159,15 +159,15 @@
                                 })
                             });
                         } else if (obj.event === 'edit') {
-							layer.open({
-								resize: false,
-								title: '受伤统计列表',
-								shadeClose: true,
-								area: ['1200px','600px'],
-								type: 2,
-								content: './personStatisticsInfo-edit.html?id='+data.id+'&category='+category,
-							});
-							tableRender();
+                            layer.open({
+                                resize: false,
+                                title: '受伤统计列表',
+                                shadeClose: true,
+                                area: ['1200px', '600px'],
+                                type: 2,
+                                content: './personStatisticsInfo-edit.html?id=' + data.id + '&category=' + category,
+                            });
+                            tableRender();
                         }
                     });
 

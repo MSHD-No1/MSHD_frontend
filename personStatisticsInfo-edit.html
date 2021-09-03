@@ -416,13 +416,12 @@
                                 "earthquakeId": earthquakeId,
                                 "reportingUnit": reportingUnit
                             };
-                            if (Category==='injured'){
-                                SelectedUrl=StorgeURL + '/v1/injuredStatistics/'
-                                layer.alert("11111111");
-                            }else if (Category==='death'){
-                                SelectedUrl=StorgeURL + '/v1/deathStatistics/'
+                            if (Category === 'injured') {
+                                SelectedUrl = StorgeURL + '/v1/injuredStatistics/'
+                            } else if (Category === 'death') {
+                                SelectedUrl = StorgeURL + '/v1/deathStatistics/'
                             } else {
-                                SelectedUrl=StorgeURL + '/v1/missingStatistics/'
+                                SelectedUrl = StorgeURL + '/v1/missingStatistics/'
                             }
 
                             $.ajax({
