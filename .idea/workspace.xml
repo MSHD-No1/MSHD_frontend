@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282c7aaf-655b-4919-9637-c12b2a2621bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/disasterInfo-edit.html" afterDir="false" />
+    <list default="true" id="282c7aaf-655b-4919-9637-c12b2a2621bb" name="Changes" comment="refactor: disaster info edit">
+      <change afterPath="$PROJECT_DIR$/houseInfo-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/houseInfoPlus-edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brickwoodStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/brickwoodStructureInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/civilStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/civilStructureInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfo-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfo-edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/earthquakeInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/earthquakeInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/missingStatisticsInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/missingStatisticsInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworkStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/frameworkStructureInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/masonryStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/masonryStructureInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otherStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/otherStructureInfo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -90,7 +96,7 @@
         </file>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="66d5bd8b-a2eb-49eb-9441-27ae4117f2b6" />
+        <option name="BASE_DIRECTORY_NAME" value="9f72f40b-4951-4dc2-8403-6d824832e195" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -324,7 +330,7 @@
       <workItem from="1630635472629" duration="1280000" />
       <workItem from="1630637612547" duration="847000" />
       <workItem from="1630651720418" duration="38000" />
-      <workItem from="1630889376548" duration="4333000" />
+      <workItem from="1630889376548" duration="11530000" />
     </task>
     <task id="LOCAL-00001" summary="能打开界面">
       <created>1630566280183</created>
@@ -340,15 +346,38 @@
       <option name="project" value="LOCAL" />
       <updated>1630635557194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor: disaster info edit">
+      <created>1630893954675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630893954675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="能打开界面" />
     <MESSAGE value="Change death and missing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change death and missing" />
+    <MESSAGE value="refactor: disaster info edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: disaster info edit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

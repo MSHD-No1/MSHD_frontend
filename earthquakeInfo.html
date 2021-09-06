@@ -148,52 +148,6 @@
                                 })
                             });
                         } else if (obj.event === 'edit') {
-                            // //console.log(data);
-                            // if (data.longitude > 180 || data.longitude < -180 || data.latitude < -90 || data.latitude > 90 || data.magnitude < 0 || data.magnitude > 12) {
-                            //     layer.alert("请检查数据");
-                            // } else {
-                            //     $.ajax({
-                            //         url: URL + '/v1/disasterInfo/' + data.id,
-                            //         method: 'put',
-                            //         data: data,
-                            //         dataType: 'JSON',
-                            //         success: function (res) {
-                            //             if (res.code === 0) {
-                            //                 layer.alert("编辑成功");
-                            //                 table.render({
-                            //                     elem: '#earthquakeInfoTb',
-                            //                     url: URL + '/v1/disasterInfo',
-                            //                     page: true,
-                            //                     cols: [[
-                            //                         {field: 'id', title: 'ID', width: 240, sort: true},
-                            //                         {field: 'date', title: '日期', width: 150, sort: true},
-                            //                         {field: 'location', title: '地理位置', width: 100, edit: true},
-                            //                         {field: 'longitude', title: '经度', width: 80, edit: true},
-                            //                         {field: 'latitude', title: '纬度', width: 80, edit: true},
-                            //                         {field: 'depth', title: '震源深度', width: 100, sort: true, edit: true},
-                            //                         {
-                            //                             field: 'magnitude',
-                            //                             title: '震级',
-                            //                             width: 80,
-                            //                             sort: true,
-                            //                             edit: true
-                            //                         },
-                            //                         {field: 'picture', title: '图像', width: 100, templet: '#pictureTpl'},
-                            //                         {field: 'reportingUnit', title: '上报单位', width: 100, edit: true},
-                            //                         {fixed: 'right', width: 120, align: 'center', toolbar: '#barDemo'}
-                            //                     ]]
-                            //                 });
-                            //             } else
-                            //                 alert(res.msg);
-                            //         },
-                            //         error: function (data) {
-                            //             layer.alert("请检查输入数据格式");
-                            //             tableRender();
-                            //         }
-                            //     });
-                            // }
-                            //
-                            // // layer.alert('编辑行：<br>'+ JSON.stringify(data))
                             layer.open({
                                 resize: false,
                                 title: '基本震情数据',
