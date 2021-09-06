@@ -85,6 +85,7 @@
 <script>layui.use(['form', 'layer', 'laydate', 'slider', 'upload'],
     function () {
         var Eid;
+        var SelectedUrl;
         var Category;
         var $ = layui.jquery;
         var form = layui.form;
@@ -116,6 +117,7 @@
                 }
 
                 Eid = getQueryString("id")
+                Category = getQueryString("category")
 
                 if (res.code == 0) {
 
@@ -212,10 +214,11 @@
                                 "note": note,
                                 "reportingUnit": reportingUnit
                             };
+                            window.alert(Category)
                             if (Category === 'civil') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/civilStructure/'
                             } else if (Category === 'brickwood') {
-                                SelectedUrl = 'http://localhost:9006' +'/v1/brickwoodStructure/'
+                                SelectedUrl = 'http://localhost:9006' + '/v1/brickwoodStructure/'
                             } else {
                                 layer.alert("错误！");
                             }

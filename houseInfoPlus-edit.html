@@ -134,9 +134,9 @@
                 }
 
                 Eid = getQueryString("id")
+                Category = getQueryString("category")
 
                 if (res.code == 0) {
-
                     $.ajax({
                         url: 'http://localhost:9006/v1/getalldisasterinfo',
                         method: 'get',
@@ -237,7 +237,7 @@
                             if (Category === 'masonry') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/masonryStructure/'
                             } else if (Category === 'framework') {
-                                SelectedUrl = 'http://localhost:9006' +'/v1/frameworkStructure/'
+                                SelectedUrl = 'http://localhost:9006' + '/v1/frameworkStructure/'
                             } else if (Category === 'other') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/otherStructure/'
                             } else {

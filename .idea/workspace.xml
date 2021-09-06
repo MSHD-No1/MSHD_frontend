@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282c7aaf-655b-4919-9637-c12b2a2621bb" name="Changes" comment="refactor: disaster info edit">
-      <change afterPath="$PROJECT_DIR$/houseInfo-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/houseInfoPlus-edit.html" afterDir="false" />
+    <list default="true" id="282c7aaf-655b-4919-9637-c12b2a2621bb" name="Changes" comment="fix()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brickwoodStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/brickwoodStructureInfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/civilStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/civilStructureInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterInfo-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfo-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/earthquakeInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/earthquakeInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frameworkStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/frameworkStructureInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/masonryStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/masonryStructureInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/otherStructureInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houseInfo-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/houseInfo-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houseInfoPlus-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/houseInfoPlus-edit.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +65,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -86,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <file path="$PROJECT_DIR$">
@@ -369,6 +363,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="能打开界面" />

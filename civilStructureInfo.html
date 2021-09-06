@@ -162,15 +162,15 @@
                                 })
                             });
                         } else if (obj.event === 'edit') {
-							layer.open({
-								resize: false,
-								title: '基本震情数据',
-								shadeClose: true,
-								area: ['1200px', '600px'],
-								type: 2,
-								content: './houseInfo-edit.html?id=' + data.id+ '&category=' + category ,
-							});
-							tableRender();
+                            layer.open({
+                                resize: false,
+                                title: '基本震情数据',
+                                shadeClose: true,
+                                area: ['1200px', '600px'],
+                                type: 2,
+                                content: './houseInfo-edit.html?id=' + data.id + '&category=' + category,
+                            });
+                            tableRender();
                         }
                     });
                 } else {
