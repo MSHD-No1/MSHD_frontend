@@ -265,25 +265,24 @@
                                 SelectedUrl = 'http://localhost:9006' + '/v1/collapseRecord/'
                             } else if (Category === 'landslide') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/landslideRecord/'
-                            } else if (Category === 'karst'){
+                            } else if (Category === 'karst') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/karstRecord/'
-                            } else if (Category === 'debris'){
+                            } else if (Category === 'debris') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/debrisRecord/'
-                            } else if (Category === 'crack'){
+                            } else if (Category === 'crack') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/crackRecord/'
-                            } else if (Category==='other'){
+                            } else if (Category === 'other') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/otherRecord/'
-                            } else if (Category==='settlement'){
+                            } else if (Category === 'settlement') {
                                 SelectedUrl = 'http://localhost:9006' + '/v1/otherRecord/'
-                            }
-                            else {
+                            } else {
                                 layer.alert("错误！");
                             }
                             if (picture === null) {
                                 layer.alert("请上传图片！");
                             } else {
                                 $.ajax({
-                                    url: SelectedUrl+Eid,
+                                    url: SelectedUrl + Eid,
                                     method: 'put',
                                     data: data,
                                     dataType: 'JSON',

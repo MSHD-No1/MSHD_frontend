@@ -39,7 +39,8 @@
                 <label class="layui-form-label" for="location">
                     <span class="x-red">*</span>地点</label>
                 <div class="layui-input-inline">
-                    <input autocomplete="off" class="layui-input" id="location" lay-verify="required" maxlength="100" name="location"
+                    <input autocomplete="off" class="layui-input" id="location" lay-verify="required" maxlength="100"
+                           name="location"
                            required="" type="text"></div>
             </div>
             <div class="layui-form-item">
@@ -99,7 +100,8 @@
                 <label class="layui-form-label" for="reporting-unit">
                     <span class="x-red">*</span>上报单位</label>
                 <div class="layui-input-inline">
-                    <input autocomplete="off" class="layui-input" id="reporting-unit" lay-verify="required" maxlength="50"
+                    <input autocomplete="off" class="layui-input" id="reporting-unit" lay-verify="required"
+                           maxlength="50"
                            name="reporting-unit" required="" type="text"></div>
             </div>
             <div class="layui-form-item">
@@ -148,9 +150,7 @@
 
                 Eid = getQueryString("id")
 
-
                 if (res.code == 0) {
-
                     form.on('select(category)', function (data) {
                         console.log("jirnu")
                         if (data.value === "336") {
@@ -215,13 +215,10 @@
                                 form.render('select');
                             }
                             //$('#earthquakeId').empty();
-
-
                         },
                         error: function (data) {
                             layer.alert("服务器繁忙");
                         }
-
                     });
 
                     //普通图片上传
@@ -245,7 +242,6 @@
                             else {
                                 layer.msg('上传失败');
                             }
-
                         }
                         , error: function () {
                             layer.alert("请限制图片大小为1M以下，重新上传");
@@ -352,7 +348,6 @@
                             // });
                             // return false;
                         });
-
                 } else {
                     window.location.href = "./login.html";
                 }
@@ -360,10 +355,7 @@
             error: function (data) {
                 alert(JSON.stringify(data));
             }
-
         });
-
-
     });</script>
 <script>var _hmt = _hmt || [];
 (function () {
