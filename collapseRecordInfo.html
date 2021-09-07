@@ -33,7 +33,7 @@
 		 
 		<script type="text/html" id="barDemo">
 		  <!-- <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a> -->
-		  <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+		  <a class="layui-btn layui-btn-xs" lay-event="edit">修改</a>
 		  <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
 		</script>
 		<script type="text/html" id="pictureTpl">
@@ -67,13 +67,13 @@
 			  cols: [[
                   //{type:'checkbox', fixed: 'left'},
                   {field:'id', title:'ID', width:180, sort: true, fixed: true},
-                  {field:'date', title:'日期', width:170, sort: true, edit: true},
-                  {field:'location', title:'地点', width:70, edit: true},
-                  {field:'type', title:'类型', width:70, edit: true},
-				  {field:'status', title:'破坏等级', width:100, edit: true},
+                  {field:'date', title:'日期', width:170, sort: true, fixed: true},
+                  {field:'location', title:'地点', width:70, fixed: true},
+                  {field:'type', title:'类型', width:70, fixed: true},
+				  {field:'status', title:'破坏等级', width:100, fixed: true},
 				  {field:'picture', title:'图片', width:100, templet: '#pictureTpl'},
-				  {field:'note', title:'破坏情况描述', width:150, edit: true},
-                  {field:'reportingUnit', title:'上报单位', width:100,edit: true},
+				  {field:'note', title:'破坏情况描述', width:150, fixed: true},
+                  {field:'reportingUnit', title:'上报单位', width:100,fixed: true},
                   {fixed: 'right', width:120, align:'center', toolbar: '#barDemo'}  
 			  ]]
 		  });}
@@ -89,13 +89,13 @@
 			  cols: [[
                   //{type:'checkbox', fixed: 'left'},
                   {field:'id', title:'ID', width:180, sort: true, fixed: true},
-                  {field:'date', title:'日期', width:170, sort: true, edit: true},
-                  {field:'location', title:'地点', width:70, edit: true},
-                  {field:'type', title:'类型', width:70, edit: true},
-				  {field:'status', title:'破坏等级', width:100, edit: true},
+                  {field:'date', title:'日期', width:170, sort: true, fixed: true},
+                  {field:'location', title:'地点', width:70, fixed: true},
+                  {field:'type', title:'类型', width:70, fixed: true},
+				  {field:'status', title:'破坏等级', width:100, fixed: true},
 				  {field:'picture', title:'图片', width:100, templet: '#pictureTpl'},
-				  {field:'note', title:'破坏情况描述', width:150, edit: true},
-                  {field:'reportingUnit', title:'上报单位', width:100,edit: true},
+				  {field:'note', title:'破坏情况描述', width:150, fixed: true},
+                  {field:'reportingUnit', title:'上报单位', width:100,fixed: true},
                   {fixed: 'right', width:120, align:'center', toolbar: '#barDemo'}  
 			  ]]
 		  	  			  });
@@ -130,6 +130,7 @@
 		  //监听工具条
 		  table.on('tool(collapseRecordTb)', function(obj){
 		    var data = obj.data;
+		    var category="collapse";
 		    if(obj.event === 'detail'){
 				//将localStorage传递到哪个页面
 				// location.href = 'map.html';
@@ -163,30 +164,15 @@
 				});
 		    }
 			else if(obj.event === 'edit'){
-				if((data.type==='1'||data.type==='2'||data.type==='3'||data.type==='4')&&(data.status==='1'||data.status==='2'||data.status==='3'||data.status==='4')){
-					$.ajax({
-						url: URL+'/v1/collapseRecord/'+data.id,
-						method: 'put',
-						data: data,
-						dataType: 'JSON',
-						success:function(res){
-						                    if(res.code === 0){
-						                        layer.alert("编辑成功");
-												tableRender();
-						                    }
-						                    else
-						                        alert(res.msg);
-						                },
-						error:function(data){
-						layer.alert("请检查输入数据格式");
-						tableRender();
-						}
-					});
-				}
-				else{
-					layer.alert("请检查输入数据格式");
-					tableRender();
-				}
+				layer.open({
+					resize: false,
+					title: '崩塌数据',
+					shadeClose: true,
+					area: ['1200px', '600px'],
+					type: 2,
+					content: './secondaryDisaster-edit.html?id=' + data.id + '&category=' + category,
+				});
+				tableRender();
 		    }
 		  });
 		  

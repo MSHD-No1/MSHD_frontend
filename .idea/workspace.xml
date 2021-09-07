@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282c7aaf-655b-4919-9637-c12b2a2621bb" name="Changes" comment="fix: get category from url.">
-      <change afterPath="$PROJECT_DIR$/lifelineComm-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifelineGas-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifelineIrrigation-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifelineOil-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifelinePower-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifelineTraffic-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifelineWater-edit.html" afterDir="false" />
+    <list default="true" id="282c7aaf-655b-4919-9637-c12b2a2621bb" name="Changes" comment="refactor: add lifeline pages.">
+      <change afterPath="$PROJECT_DIR$/secondaryDisaster-edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/commDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gasDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/gasDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irrigationDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/irrigationDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifeline-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifeline-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oilDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/oilDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/powerDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/powerDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/trafficDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/waterDisasterInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collapseRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/collapseRecordInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crackRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/crackRecordInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debrisRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/debrisRecordInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houseInfo-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/houseInfo-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karstRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/karstRecordInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landslideRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/landslideRecordInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otherRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/otherRecordInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondaryDisaster-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondaryDisaster-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settlementRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/settlementRecordInfo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration name="Tomcat 8.5.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.70" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <file path="$PROJECT_DIR$">
@@ -102,7 +97,7 @@
         </file>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="9f72f40b-4951-4dc2-8403-6d824832e195" />
+        <option name="BASE_DIRECTORY_NAME" value="07d5b401-c2b3-4901-92ce-d00324b76f9c" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -339,6 +334,8 @@
       <workItem from="1630889376548" duration="11530000" />
       <workItem from="1630911650540" duration="1120000" />
       <workItem from="1630913104747" duration="4475000" />
+      <workItem from="1630974653725" duration="504000" />
+      <workItem from="1630975265316" duration="4907000" />
     </task>
     <task id="LOCAL-00001" summary="能打开界面">
       <created>1630566280183</created>
@@ -368,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630911364866</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor: add lifeline pages.">
+      <created>1630974833504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630974833504</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +395,8 @@
     <MESSAGE value="Change death and missing" />
     <MESSAGE value="refactor: disaster info edit" />
     <MESSAGE value="fix: get category from url." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: get category from url." />
+    <MESSAGE value="refactor: add lifeline pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: add lifeline pages." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
