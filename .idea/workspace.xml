@@ -2,99 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="282c7aaf-655b-4919-9637-c12b2a2621bb" name="Changes" comment="refactor: add secondaryDisaster pages.">
+      <change afterPath="$PROJECT_DIR$/layui/layui_exts/excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/layui_exts/excel.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/layui_exts/excel.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GISdisaster.html" beforeDir="false" afterPath="$PROJECT_DIR$/GISdisaster.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImmediateReading.html" beforeDir="false" afterPath="$PROJECT_DIR$/ImmediateReading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminAddUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminAddUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/backupTime.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brickwoodStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/brickwoodStructureInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/civilStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/civilStructureInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collapseRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/collapseRecordInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/commDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crackRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/crackRecordInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme4.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme5.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/userAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/userAdmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/xadmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/xadmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deathStatisticsInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/deathStatisticsInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debrisRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/debrisRecordInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterInfo-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfo-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterInfo-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfo-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterPersonStatisticsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterPersonStatisticsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterPredictionInfo-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterPredictionInfo-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterPredictionInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterPredictionInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disasterRequestInfo-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterRequestInfo-add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disasterRequestInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/disasterRequestInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/earthquakeInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/earthquakeInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/earthquakeInfoStatisticsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/earthquakeInfoStatisticsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/electricpredict.html" beforeDir="false" afterPath="$PROJECT_DIR$/electricpredict.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frameworkStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/frameworkStructureInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gasDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/gasDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/houseInfo-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/houseInfo-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/houseInfo-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/houseInfo-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/houseInfoPlus-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/houseInfoPlus-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/houseInfoStatisticsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/houseInfoStatisticsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injuredStatisticsInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/injuredStatisticsInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irrigationDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/irrigationDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/xadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/xadmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/xcity.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/xcity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karstRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/karstRecordInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landslideRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/landslideRecordInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifeline-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifeline-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifelineComm-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifelineComm-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifelineGas-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifelineGas-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifelineIrrigation-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifelineIrrigation-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifelineOil-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifelineOil-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifelinePower-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifelinePower-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifelineStatisticsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifelineStatisticsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifelineTraffic-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifelineTraffic-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifelineWater-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/lifelineWater-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/masonryStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/masonryStructureInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/missingStatisticsInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/missingStatisticsInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oilDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/oilDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-list1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/otherRecordInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherStructureInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/otherStructureInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personStatisticsInfo-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/personStatisticsInfo-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personStatisticsInfo-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/personStatisticsInfo-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personalInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/personalInformation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/powerDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/powerDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predictcomdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/predictcomdata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publicanalysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicanalysis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publicpredict.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicpredict.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondaryDisaster-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondaryDisaster-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondaryDisaster-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondaryDisaster-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondaryDisasterStatisticsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondaryDisasterStatisticsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlementRecordInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/settlementRecordInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timingReading.html" beforeDir="false" afterPath="$PROJECT_DIR$/timingReading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/trafficDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transpositionpredictdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/transpositionpredictdata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/unicode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/user.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/username-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/username-update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userpassword-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/userpassword-update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterDisasterInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/waterDisasterInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome1.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,12 +51,14 @@
   <component name="ProjectId" id="1xWoJpG727eKUj59c9RMi5XDXPy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -419,6 +333,7 @@
       <workItem from="1630974653725" duration="504000" />
       <workItem from="1630975265316" duration="5563000" />
       <workItem from="1630995606093" duration="1316000" />
+      <workItem from="1631061259635" duration="2896000" />
     </task>
     <task id="LOCAL-00001" summary="能打开界面">
       <created>1630566280183</created>
@@ -481,6 +396,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="能打开界面" />
     <MESSAGE value="Change death and missing" />
     <MESSAGE value="refactor: disaster info edit" />

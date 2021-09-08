@@ -17,9 +17,7 @@
 <div class="layui-btn-group demoTable">
     <button class="layui-btn" id="processedRequestFilter">已处理</button>
     <button class="layui-btn" id="noProcessedRequestFilter">未处理</button>
-    <button class="layui-btn" id="exportToXML">导出为XML</button>
-    <button class="layui-btn" id="exportToJSON">导出为JSON</button>
-    <button class="layui-btn" id="exportToExcel">导出为Excel</button>
+    <button class="layui-btn" id="exportToExcelFilter">导出为Excel</button>
 </div>
 
 <table id="disasterRequestTb" lay-filter="disasterRequestTb"></table>
@@ -33,6 +31,7 @@
     <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
 </script>
 <script charset="utf-8" src="./layui/layui.js"></script>
+<script src="./layui/layui_exts/excel.js"></script>
 <!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
 <script>
     var typeMap = {
@@ -64,10 +63,12 @@
     var isUnhandle = false
     var isHandle = false
     layui.use('table', function () {
-        var table = layui.table;
-        var $ = layui.$;
-        var URL = 'http://localhost:6001';
-        var URLInterpreter = "http://localhost:5001";
+        var table = layui.table
+        var $ = layui.$
+        var baseUrl = "http://localhost"
+        var URL = baseUrl + ":6001"
+        var URLExport = baseUrl + ":9006"
+        var URLInterpreter = baseUrl + ":5001"
         // var URL = 'http://39.99.228.199:6001';
 
 
@@ -233,8 +234,8 @@
                                 {field: 'requestUnit', title: '请求单位', width: 200, fixed: true},
                                 {fixed: 'right', width: 120, align: 'center', toolbar: '#barDemo'}
                             ]]
-                        });
-                    });
+                        })
+                    })
                     $("#noProcessedRequestFilter").click(function () {
                         isUnhandle = true
                         isHandle = false;
@@ -265,18 +266,50 @@
                                 {fixed: 'right', width: 120, align: 'center', toolbar: '#barDemo'}
                             ]]
                         });
-                    });
-
+                    })
+                    $("#exportToExcelFilter").click(function (data) {
+                        var $ = layui.jquery;
+                        var excel = layui.excel;
+                        $.ajax({
+                            url: URLExport + '/v1/deathStatistics',
+                            dataType: 'json',
+                            data: {
+                                datas: JSON.stringify(data.field),
+                                limit: 360, page: 1
+                            },
+                            success: function (res) {
+                                layer.alert("正在导出......")
+                                // layer.close(loading);
+                                layer.msg(res.msg)
+                                // 假如返回的 res.data 是需要导出的列表数据
+                                console.log(res.data)
+                                // 1. 数组头部新增表头
+                                res.data.unshift({
+                                    id: 'ID',
+                                    date: '日期',
+                                    location: '死亡地点',
+                                    number: '死亡人数',
+                                    reportingUnit: '上报单位',
+                                    earthquakeId: '地震编码'
+                                }); // 3. 执行导出函数，系统会弹出弹框
+                                excel.exportExcel({sheet1: res.data}, '死亡人数数据.xlsx', 'xlsx')
+                            },
+                            error: function (res) {
+                                layer.alert("导出失败......")
+                                layer.close(loading)
+                                layer.msg(res.msg)
+                            }
+                        })
+                    })
                 } else {
                     window.location.href = "./login.html";
                 }
-            },
-            error: function (data) {
-                alert(JSON.stringify(data));
-            }
-
-        });
-    });
+            }, error:
+                function (data) {
+                    alert(JSON.stringify(data))
+                }
+        })
+    })
 </script>
 </body>
 </html>
